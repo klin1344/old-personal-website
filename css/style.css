@@ -65,9 +65,9 @@ body {
 }
 
 .social:hover {
-     -webkit-transform: scale(1.5);
-     -moz-transform: scale(1.5);
-     -o-transform: scale(1.5);
+     -webkit-transform: scale(1.4);
+     -moz-transform: scale(1.4);
+     -o-transform: scale(1.4);
  }
  .social {
     width: 8%;
