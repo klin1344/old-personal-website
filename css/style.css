@@ -47,7 +47,6 @@ body {
   font-size: 1.9em; 
   position: absolute; 
   bottom: 5%; 
-  text-shadow: 2px 2px 0 #000;
 }
 @media screen and (max-width: 1000px) {
     .jumbotron p {
@@ -207,7 +206,6 @@ figure.snip1477 figcaption {
   font-size: 1.25em;
   font-weight: 100;
   letter-spacing: 1.5px;
-  text-shadow: 1px 1px 0 #000;
 }
 figure.snip1477 figcaption p {
   margin: 0;
