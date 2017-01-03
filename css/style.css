@@ -9,7 +9,7 @@ body {
     text-align: center;
 
 }
-.
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -36,13 +36,39 @@ body {
 }
 .jumbotron p {
     color: #fff;
-    font-size: 6em;
+    font-size: 4em;
     font-weight: 100;
     margin-top: 15%;
 }
 .center-text {
     text-align: center;
 }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+    width: 8%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
 hr { 
   border: none;
   width: 80%; 
