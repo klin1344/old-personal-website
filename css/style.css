@@ -35,19 +35,39 @@ body {
     text-align: center;
 }
 .jumbotron p {
-    color: #fff;
-    font-size: 4em;
-    font-weight: 100;
-    margin-top: 15%;
+      color: #fff;
+      font-weight: 100;
+      margin-top: 15%;
+      font-size: 5em;
 }
+#intro-text {
+  margin-left: 27%; 
+  margin-right: 27%; 
+  text-align: left; 
+  font-size: 1.9em; 
+  position: absolute; 
+  bottom: 5%; 
+  text-shadow: 2px 2px 0 #000;
+}
+@media screen and (max-width: 1000px) {
+    .jumbotron p {
+      font-size: 3em;
+    }
+    #intro-text {
+      font-size: 1.5em;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+}
+
 .center-text {
     text-align: center;
 }
 
 .social:hover {
-     -webkit-transform: scale(1.1);
-     -moz-transform: scale(1.1);
-     -o-transform: scale(1.1);
+     -webkit-transform: scale(1.5);
+     -moz-transform: scale(1.5);
+     -o-transform: scale(1.5);
  }
  .social {
     width: 8%;
@@ -55,11 +75,11 @@ body {
     margin-bottom: 5%;
     margin-right: 3%;
     margin-left: 3%;
-     -webkit-transform: scale(0.8);
+     -webkit-transform: scale(1);
      /* Browser Variations: */
      
-     -moz-transform: scale(0.8);
-     -o-transform: scale(0.8);
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
@@ -93,6 +113,7 @@ figure.snip1477 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
+    border: 1px solid silver;
 
 }
 figure.snip1477 *,
@@ -216,6 +237,7 @@ figure.snip1477:hover .title div:after,
 figure.snip1477.hover .title div:after {
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
+
 }
 figure.snip1477:hover .title:before,
 figure.snip1477.hover .title:before,
